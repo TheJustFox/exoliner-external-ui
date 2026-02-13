@@ -1,5 +1,5 @@
 # Exoliner External UI
-An external executor made for [exoliner.wtf](https://exoliner.wtf) serverside using c# and winforms.
+An external executor made for roblox serverside executor [exoliner.wtf](https://exoliner.wtf) using c# and winforms.
 
 This is my first actual github project, if you have any suggestions you can open [issue](https://github.com/TheJustFox/exoliner-external-ui/issues) or something (😭).
 
