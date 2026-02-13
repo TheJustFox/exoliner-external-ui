@@ -15,7 +15,7 @@ This is my first actual github project, if you have any suggestions you can open
 This project can be probably used with other serversides by doing some tweaks to ExolinerWrapper.cs
 
 # How to use
-1. build or download from [release](https://github.com/TheJustFox/exoliner-external-ui/releases/) (MAKE SURE TO EXTRACT IT INTO A FOLDER)
+1. build or download [latest release](https://github.com/TheJustFox/exoliner-external-ui/releases/latest) (MAKE SURE TO EXTRACT IT INTO A FOLDER)
 2. open main exe
 3. log in using JWT cookie
 
