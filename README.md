@@ -13,7 +13,7 @@ This is my first actual github project, if you have any suggestions you can open
 - Payload (code before every executed script)
 
 # How to use
-1. build or download from release
+1. build or download from [release](https://github.com/TheJustFox/exoliner-external-ui/releases/) (MAKE SURE TO EXTRACT IT INTO A FOLDER)
 2. open main exe
 3. log in using JWT cookie
 
