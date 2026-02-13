@@ -1,16 +1,18 @@
 # Exoliner External UI
-An TOS-allowed executor made for [exoliner.wtf](https://exoliner.wtf)
+An external executor made for [exoliner.wtf](https://exoliner.wtf) serverside using c# and winforms.
 
-This is my first actual github project, if you have any suggestions you can open [issue](https://github.com/TheJustFox/exoliner-external-ui/issues) or something (😭)
+This is my first actual github project, if you have any suggestions you can open [issue](https://github.com/TheJustFox/exoliner-external-ui/issues) or something (😭).
 
 # Features
 - Tab system
 - Colored editor (using FastColoredTextbox)
 - File save/load
-- Script hub
+- Offline script hub
 - Auto execute
 - Shortcuts
 - Payload (code before every executed script)
+
+This project can be probably used with other serversides by doing some tweaks to ExolinerWrapper.cs
 
 # How to use
 1. build or download from [release](https://github.com/TheJustFox/exoliner-external-ui/releases/) (MAKE SURE TO EXTRACT IT INTO A FOLDER)
