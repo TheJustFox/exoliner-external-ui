@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace ExolinerExternalUI {
     internal static class Program {
         private const string REPOSITORY_URL = "TheJustFox/exoliner-external-ui";
-        private static string ASSEMBLY_VERSION = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        public static string ASSEMBLY_VERSION = Assembly.GetExecutingAssembly().GetName().Version.ToString();
         private class GithubResponse {
             public string tag_name { get; set; }
             public string html_url { get; set; }
@@ -33,8 +33,8 @@ namespace ExolinerExternalUI {
             bool isLatest = githubResponse.tag_name == ASSEMBLY_VERSION;
             if (isLatest || githubResponse.tag_name == null) return;
             DialogResult result = MessageBox.Show("A newer version of Exoliner External has been found!\n" +
-            $"Curret version: {ASSEMBLY_VERSION}, latest version: {githubResponse.tag_name}\n" +
-            "Would you like to get download page opened?", "Exoliner", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            $"Current version: {ASSEMBLY_VERSION} - Latest version: {githubResponse.tag_name}\n" +
+            "Would you like to update?", "Exoliner", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes) {
                 Process.Start(githubResponse.html_url);
                 Process.GetCurrentProcess().Kill();
